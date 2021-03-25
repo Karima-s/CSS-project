@@ -1,0 +1,198 @@
+ html { 
+    height: 100%;
+  }
+
+  * { 
+    margin: 0;
+    padding: 0;
+  }
+  /* tell the browser to render HTML 5 elements as block */
+  article, aside, footer, header, nav, section { 
+    display:block;
+  }
+
+  body { 
+    font: normal .80em arial, sans-serif;
+    background: #000 url(./images/back.jpg) no-repeat center fixed;
+    color: #444; 
+  }
+  a, a:hover { 
+    outline: none;
+    text-decoration: underline;
+    color: #09D4FF;
+  }
+
+  a:hover { 
+    text-decoration: none;
+  }
+
+ ul { 
+    margin: 2px 0 22px 17px;
+  }
+
+
+  ul li { 
+    display:block;
+    float:left; 
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+  }
+  
+  .left { 
+    float: left;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .sidebar { 
+    float: right;
+    width: 200px;
+    margin: 0 0 17px 0;
+    background: #EFF8FB;
+    border: 1px solid #C6E7F0;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+    padding: 0 15px 5px 13px;
+  }
+
+  .right { 
+    float: right; 
+    width: auto;
+    margin-left: 10px;
+  }
+  #hello {
+  padding: 20px 20px 20px 0;
+ 
+  color: #444;
+  text-decoration: none;
+  }
+  .center { 
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  
+  #main, nav, #container, #site_content, footer { 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  .paperclip { 
+    float: left;
+    position: relative; 
+    z-index: 0;
+    vertical-align: middle; 
+    margin: -15px 0 -60px -40px;
+  }
+  
+
+  #site_content { 
+    width: 930px;
+    overflow: hidden;
+    margin: 0px auto 0 auto;
+    padding: 15px 0 15px 0;
+  } 
+.content { 
+    text-align: left;
+    width: 630px;
+    margin: 0 0 15px 0;
+    float: left;
+    font-size: 120%;
+    padding: 14px 0 0 0;
+  }
+
+  #main {
+    margin: 50px auto;
+    width: 1000px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border: 15px 15px 15px 15px;
+    background: #FFF;
+    padding-bottom: 30px;
+  }
+  
+  iframe {
+	 width: 420px;
+     height: 315px;
+  }
+   
+  .content ul li, .sidebar ul li { 
+    list-style-type: none;
+    background: url(../images/bullet.png) no-repeat;
+    margin: 0 0 0 0; 
+    padding: 0 0 4px 28px;
+    line-height: 1.5em;
+  }
+  
+
+  header { 
+    background: transparent;
+    height: 179px;
+  }
+
+  nav { 
+    height: 44px;
+    width: 930px;
+    margin: -34px auto 0 auto;
+    -webkit-border-radius: .5em .5em .5em .5em ; 
+    -moz-border-radius: .5em .5em .5em .5em ;
+    border-radius: .5em .5em .5em .5em ;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    color: #FFF;
+    border: solid 1px #DA7C0C;
+    background: #F78D1D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FAA51A), to(#F47A20));
+    background: -moz-linear-gradient(top,  #FAA51A,  #F47A20);
+  } 
+
+ 
+  p { 
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+  }
+
+  #sidebar_container { 
+    float: right;
+    width: 224px;
+  }
+  
+
+  img { 
+    border: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 { 
+    color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+  }
+
+  footer { 
+    width: 930px;
+    font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+    text-shadow: 1px 1px #7E4D0E;
+    height: 100px;
+    padding: 5px 0 20px 0;
+    text-align: center; 
+    border-radius: .5em .5em .5em .5em ; 
+    border-radius: .5em .5em .5em .5em ;
+    border-radius: .5em .5em .5em .5em ;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    color: #FFF;
+    border: solid 1px #DA7C0C;
+    background: #F78D1D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FAA51A), to(#F47A20));
+    background: -moz-linear-gradient(top,  #FAA51A,  #F47A20);
+  }
+
